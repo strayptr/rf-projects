@@ -1,0 +1,2 @@
+hold “back” on your transmitter, then type `sh record.sh back 1.0` (note that the last parameter is completely useless / ignored, because I haven’t implemented it yet.  It’s supposed to be time in seconds that the recording goes for.) Let it capture for about a second or two, then press ctrl-C.  That’ll produce a file.  Then type `sh tx.sh thatfilename` and you should see your rc car run backwards. `sh tx_loop.sh thatfilename` will cause it to go backwards as long as the program is running (but not without a short pause at the start of each loop).
+
